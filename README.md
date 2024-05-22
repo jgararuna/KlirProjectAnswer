@@ -6,11 +6,11 @@
 
 *versão 1.0*
 
-## Histórico das alterações
+## Document Revision History
 
-   Data    | Versão |    Descrição    | Autor(a)
------------|--------|-----------------|-----------------
-05/21/2024 |  1.0   | Initial Release | João Araruna
+   Data    | Versão |    Descrição          | Autor(a)
+-----------|--------|-----------------------|-----------------
+05/21/2024 |  1.0   | Test plan was created | João Araruna
 
 
-## 1 - Introdução
+## 1 - Introduction
