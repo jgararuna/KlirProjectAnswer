@@ -20,7 +20,7 @@ describe('Verify customers list', () => {
         cy.get('p > :nth-child(1)').should('contain', name)
         var customerPosition = 0
         cy.get('tbody').then($tbody => {
-            const customerListSize = $tbody.find('tr').length // jquery find won't fail        
+            const customerListSize = $tbody.find('tr').length       
             if (customerListSize > 0) {
                 cy.log(`There are ${customerListSize} customers`)
                 customerPosition = Math.floor((Math.random() * ((customerListSize + 1) - 1) + 1))
@@ -51,9 +51,8 @@ describe('Verify customers detailing', () => {
         cy.get('#name').type(name)
         cy.get('[type="button"]').click()
         cy.get('p > :nth-child(1)').should('contain', name)
-        //const customerListSize = cy.get('table').find('tr').then(count)
         cy.get('tbody').then($tbody => {
-            const customerListSize = $tbody.find('tr').length // jquery find won't fail
+            const customerListSize = $tbody.find('tr').length
             
             if (customerListSize > 0) {
                 cy.log(`There are ${customerListSize} customers`)
