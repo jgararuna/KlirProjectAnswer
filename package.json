@@ -1,0 +1,15 @@
+{
+  "name": "klirprojectanswer",
+  "version": "1.0.0",
+  "description": "**Water Customer App**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Joao Ararua",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  }
+}
