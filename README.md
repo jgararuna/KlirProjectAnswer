@@ -27,7 +27,7 @@ FR3 | User must be able to be able to access the customer details   |
 
 ## 3 - Test cases
 
-Test Scenario Id | Test Case Id | Test Case Description
+Functional Requirement Id | Test Case Id | Test Case Description
 -----------------|--------------|----------------------|
 | FR1 | TC1 | Verify that the user access the application
 | FR2 | TC2 | Verify that the user access the list of customers filling the name
