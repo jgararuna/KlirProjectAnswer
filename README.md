@@ -64,6 +64,7 @@ Tool | Description |
  Nodejs |Tool to install cypress|
  Git |Tool for version control|
  Microsoft Word |To create the test report for each test case|
+ Docker | Tool to start the application to be tested|
 
  ## 6 - Activities
 
